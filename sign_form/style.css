@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+*{
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-weight: 400;
+}
+#main{
+    height: 100vh;
+    width: 100wh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#name, #email, #confirm, #confirm_password, #date{
+    width: 95%;
+    font-size: 24px;
+}
+#form input{
+    margin: 5px;
+    padding: 10px;
+    padding-left: 0px;
+    border: none;
+    border-bottom: 1px solid white;
+    font-weight: 300;
+}
+h1{
+    font-weight: 300;
+    font-size: 64px;
+    margin-bottom: 25px;
+}
+#form{
+    width: 60%;
+    height: 80%;
+}
+::placeholder{
+    color: white;
+}
+button{
+    background-color: white;
+    color: black;
+    padding: 10px 40px;
+    margin-left: 10px;
+    margin-top: 40px;
+    border-radius: 2px;
+}
+label{
+    font-size: 24px;
+}
+#radio{
+    margin-top: 15px;
+}
